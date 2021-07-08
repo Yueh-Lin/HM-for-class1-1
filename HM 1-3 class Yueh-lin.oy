@@ -1,0 +1,19 @@
+import Random
+num=random.randint(1.10)
+
+x=input("what is your number?")
+
+num=int(num)
+x=int(x)
+
+while x != num:
+    print('you are wrong')
+    x=input("what is your number?")
+    
+if x > num:
+    print("try a smaller number")
+    
+if x < num:
+    print("try a bigger number")
+
+print("you got it")
