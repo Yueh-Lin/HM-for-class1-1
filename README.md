@@ -1,1 +1,1 @@
-# HM-for-class
+# HM-and-class
